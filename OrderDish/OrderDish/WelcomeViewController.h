@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WelcomeViewController.h
 //  OrderDish
 //
 //  Created by 陈宁 on 2017/4/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WelcomeViewController : UIViewController
 
 @end
-

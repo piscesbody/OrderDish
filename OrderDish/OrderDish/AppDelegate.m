@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WelcomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    NSLog(@"%@",NSHomeDirectory());
+    
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"database" ofType:@"sqlite"];
+    NSString *dPath = [NSHomeDirectory()stringByAppendingPathComponent:@"Documents/database.sqlite"];
+    [[NSFileManager defaultManager]copyItemAtPath:path toPath:dPath error:nil];
+    [DatabaseTool openDatabase];
+    
+    WelcomeViewController *welcomeVC = [[WelcomeViewController alloc]init];
+    self.window.rootViewController = welcomeVC;
     return YES;
 }
 

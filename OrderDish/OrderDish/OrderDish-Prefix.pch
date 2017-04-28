@@ -1,0 +1,28 @@
+//
+//  OrderDish-Prefix.pch
+//  OrderDish
+//
+//  Created by 陈宁 on 2017/4/28.
+//  Copyright © 2017年 陈宁. All rights reserved.
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#define KEY_WINDOW [[[UIApplication sharedApplication]delegate]window]
+
+#define ALERT_VIEW(msg) UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"温馨提示" message:msg delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];\
+[alertView show];
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "CommonTool.h"
+#import "DatabaseTool.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* OrderDish_Prefix_pch */
