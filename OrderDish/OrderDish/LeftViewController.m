@@ -1,21 +1,18 @@
 //
-//  WelcomeViewController.m
+//  LeftViewController.m
 //  OrderDish
 //
-//  Created by 陈宁 on 2017/4/28.
+//  Created by 陈宁 on 2017/4/29.
 //  Copyright © 2017年 陈宁. All rights reserved.
 //
 
-#import "WelcomeViewController.h"
-#import "SelectViewController.h"
+#import "LeftViewController.h"
 
-@interface WelcomeViewController ()
-- (IBAction)openURL:(UIButton *)sender;
-- (IBAction)goToSelectVC:(id)sender;
+@interface LeftViewController ()
 
 @end
 
-@implementation WelcomeViewController
+@implementation LeftViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,13 +34,4 @@
 }
 */
 
-- (IBAction)openURL:(UIButton *)sender {
-    NSURL *url = [NSURL URLWithString:@"http://www.piscesbody.com"];
-    [[UIApplication sharedApplication]openURL:url];
-}
-
-- (IBAction)goToSelectVC:(id)sender {
-    SelectViewController *selectVC = [[SelectViewController alloc]init];
-    [CommonTool changeRootViewControllerWithController:selectVC];
-}
 @end

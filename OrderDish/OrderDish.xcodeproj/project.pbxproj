@@ -270,6 +270,12 @@
 		134482E61EB3713900D40EB1 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482E41EB3713900D40EB1 /* WelcomeViewController.xib */; };
 		134482E81EB3759000D40EB1 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 134482E71EB3759000D40EB1 /* database.sqlite */; };
 		134482EA1EB376FF00D40EB1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 134482E91EB376FF00D40EB1 /* libsqlite3.dylib */; };
+		134482EE1EB38F9000D40EB1 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482EC1EB38F9000D40EB1 /* SelectViewController.m */; };
+		134482EF1EB38F9000D40EB1 /* SelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482ED1EB38F9000D40EB1 /* SelectViewController.xib */; };
+		134482F31EB3920600D40EB1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482F11EB3920600D40EB1 /* MainViewController.m */; };
+		134482F41EB3920600D40EB1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482F21EB3920600D40EB1 /* MainViewController.xib */; };
+		134482F81EB39F7300D40EB1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482F61EB39F7300D40EB1 /* LeftViewController.m */; };
+		134482F91EB39F7300D40EB1 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482F71EB39F7300D40EB1 /* LeftViewController.xib */; };
 		5796472323BFB09F8EF1119C /* libPods-OrderDish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */; };
 /* End PBXBuildFile section */
 
@@ -548,6 +554,15 @@
 		134482E41EB3713900D40EB1 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		134482E71EB3759000D40EB1 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = database.sqlite; path = OrderDish/database.sqlite; sourceTree = "<group>"; };
 		134482E91EB376FF00D40EB1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		134482EB1EB38F9000D40EB1 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		134482EC1EB38F9000D40EB1 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		134482ED1EB38F9000D40EB1 /* SelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectViewController.xib; sourceTree = "<group>"; };
+		134482F01EB3920600D40EB1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		134482F11EB3920600D40EB1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		134482F21EB3920600D40EB1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		134482F51EB39F7300D40EB1 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		134482F61EB39F7300D40EB1 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		134482F71EB39F7300D40EB1 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
 		7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrderDish.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD55F69E5959C4C4EC8FC0CC /* Pods-OrderDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderDish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderDish/Pods-OrderDish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -595,6 +610,15 @@
 				134482E21EB3713900D40EB1 /* WelcomeViewController.h */,
 				134482E31EB3713900D40EB1 /* WelcomeViewController.m */,
 				134482E41EB3713900D40EB1 /* WelcomeViewController.xib */,
+				134482EB1EB38F9000D40EB1 /* SelectViewController.h */,
+				134482EC1EB38F9000D40EB1 /* SelectViewController.m */,
+				134482ED1EB38F9000D40EB1 /* SelectViewController.xib */,
+				134482F01EB3920600D40EB1 /* MainViewController.h */,
+				134482F11EB3920600D40EB1 /* MainViewController.m */,
+				134482F21EB3920600D40EB1 /* MainViewController.xib */,
+				134482F51EB39F7300D40EB1 /* LeftViewController.h */,
+				134482F61EB39F7300D40EB1 /* LeftViewController.m */,
+				134482F71EB39F7300D40EB1 /* LeftViewController.xib */,
 				134480C61EB3356600D40EB1 /* Assets.xcassets */,
 				134480C81EB3356600D40EB1 /* LaunchScreen.storyboard */,
 				134480CB1EB3356600D40EB1 /* Info.plist */,
@@ -1061,6 +1085,7 @@
 				134482BD1EB3372D00D40EB1 /* 罗汉果凉茶.jpg in Resources */,
 				134482291EB3372D00D40EB1 /* 3.png in Resources */,
 				134481EA1EB3372D00D40EB1 /* 6.jpg in Resources */,
+				134482EF1EB38F9000D40EB1 /* SelectViewController.xib in Resources */,
 				134482161EB3372D00D40EB1 /* sdbtn.png in Resources */,
 				1344826B1EB3372D00D40EB1 /* 大厨炒饭.jpg in Resources */,
 				1344823B1EB3372D00D40EB1 /* 极品吉品鲍(20头).jpg in Resources */,
@@ -1075,6 +1100,7 @@
 				1344827C1EB3372D00D40EB1 /* 潮式煲大连鲍.jpg in Resources */,
 				1344826E1EB3372D00D40EB1 /* 奶沙紫薯果.jpg in Resources */,
 				134482451EB3372D00D40EB1 /* 南非网鲍(12头).png in Resources */,
+				134482F91EB39F7300D40EB1 /* LeftViewController.xib in Resources */,
 				134481D91EB3372D00D40EB1 /* bgp31.png in Resources */,
 				134481E41EB3372D00D40EB1 /* btnBG.png in Resources */,
 				134482021EB3372D00D40EB1 /* cp.png in Resources */,
@@ -1238,6 +1264,7 @@
 				1344829C1EB3372D00D40EB1 /* 韭菜花炒福果曹虾.jpg in Resources */,
 				134481F71EB3372D00D40EB1 /* line33.png in Resources */,
 				1344820C1EB3372D00D40EB1 /* hzs.png in Resources */,
+				134482F41EB3920600D40EB1 /* MainViewController.xib in Resources */,
 				134482C31EB3372D00D40EB1 /* 阿里山乌龙.jpg in Resources */,
 				1344824E1EB3372D00D40EB1 /* 粗针翅.png in Resources */,
 				1344824A1EB3372D00D40EB1 /* 极品吉品鲍(18头).png in Resources */,
@@ -1348,12 +1375,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				134482EE1EB38F9000D40EB1 /* SelectViewController.m in Sources */,
 				134482D81EB338B800D40EB1 /* OrderDish.m in Sources */,
 				134482D51EB3385600D40EB1 /* Dish.m in Sources */,
+				134482F31EB3920600D40EB1 /* MainViewController.m in Sources */,
 				134482DB1EB3392D00D40EB1 /* CommonTool.m in Sources */,
 				134482DF1EB33C2E00D40EB1 /* DatabaseTool.m in Sources */,
 				134480BF1EB3356600D40EB1 /* AppDelegate.m in Sources */,
 				134482E51EB3713900D40EB1 /* WelcomeViewController.m in Sources */,
+				134482F81EB39F7300D40EB1 /* LeftViewController.m in Sources */,
 				134480BC1EB3356600D40EB1 /* main.m in Sources */,
 				134482D21EB337FD00D40EB1 /* Group.m in Sources */,
 			);
