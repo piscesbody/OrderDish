@@ -276,6 +276,10 @@
 		134482F41EB3920600D40EB1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482F21EB3920600D40EB1 /* MainViewController.xib */; };
 		134482F81EB39F7300D40EB1 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482F61EB39F7300D40EB1 /* LeftViewController.m */; };
 		134482F91EB39F7300D40EB1 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482F71EB39F7300D40EB1 /* LeftViewController.xib */; };
+		134482FD1EB6393200D40EB1 /* ChooseRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482FB1EB6393200D40EB1 /* ChooseRoomViewController.m */; };
+		134482FE1EB6393200D40EB1 /* ChooseRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482FC1EB6393200D40EB1 /* ChooseRoomViewController.xib */; };
+		134483021EB63AD000D40EB1 /* SendOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134483001EB63AD000D40EB1 /* SendOrderViewController.m */; };
+		134483031EB63AD000D40EB1 /* SendOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483011EB63AD000D40EB1 /* SendOrderViewController.xib */; };
 		5796472323BFB09F8EF1119C /* libPods-OrderDish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */; };
 /* End PBXBuildFile section */
 
@@ -563,6 +567,12 @@
 		134482F51EB39F7300D40EB1 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		134482F61EB39F7300D40EB1 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		134482F71EB39F7300D40EB1 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		134482FA1EB6393200D40EB1 /* ChooseRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseRoomViewController.h; sourceTree = "<group>"; };
+		134482FB1EB6393200D40EB1 /* ChooseRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseRoomViewController.m; sourceTree = "<group>"; };
+		134482FC1EB6393200D40EB1 /* ChooseRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseRoomViewController.xib; sourceTree = "<group>"; };
+		134482FF1EB63AD000D40EB1 /* SendOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendOrderViewController.h; sourceTree = "<group>"; };
+		134483001EB63AD000D40EB1 /* SendOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendOrderViewController.m; sourceTree = "<group>"; };
+		134483011EB63AD000D40EB1 /* SendOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendOrderViewController.xib; sourceTree = "<group>"; };
 		7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrderDish.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD55F69E5959C4C4EC8FC0CC /* Pods-OrderDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderDish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderDish/Pods-OrderDish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -619,6 +629,12 @@
 				134482F51EB39F7300D40EB1 /* LeftViewController.h */,
 				134482F61EB39F7300D40EB1 /* LeftViewController.m */,
 				134482F71EB39F7300D40EB1 /* LeftViewController.xib */,
+				134482FF1EB63AD000D40EB1 /* SendOrderViewController.h */,
+				134483001EB63AD000D40EB1 /* SendOrderViewController.m */,
+				134483011EB63AD000D40EB1 /* SendOrderViewController.xib */,
+				134482FA1EB6393200D40EB1 /* ChooseRoomViewController.h */,
+				134482FB1EB6393200D40EB1 /* ChooseRoomViewController.m */,
+				134482FC1EB6393200D40EB1 /* ChooseRoomViewController.xib */,
 				134480C61EB3356600D40EB1 /* Assets.xcassets */,
 				134480C81EB3356600D40EB1 /* LaunchScreen.storyboard */,
 				134480CB1EB3356600D40EB1 /* Info.plist */,
@@ -1178,6 +1194,7 @@
 				1344821E1EB3372D00D40EB1 /* myorder.png in Resources */,
 				1344821F1EB3372D00D40EB1 /* p1.jpg in Resources */,
 				134481E21EB3372D00D40EB1 /* bgpp2.jpg in Resources */,
+				134483031EB63AD000D40EB1 /* SendOrderViewController.xib in Resources */,
 				134482721EB3372D00D40EB1 /* 日式冻鹅肝.jpg in Resources */,
 				134482BE1EB3372D00D40EB1 /* 西湖龙井.jpg in Resources */,
 				134481D41EB3372D00D40EB1 /* 01.png in Resources */,
@@ -1268,6 +1285,7 @@
 				134482C31EB3372D00D40EB1 /* 阿里山乌龙.jpg in Resources */,
 				1344824E1EB3372D00D40EB1 /* 粗针翅.png in Resources */,
 				1344824A1EB3372D00D40EB1 /* 极品吉品鲍(18头).png in Resources */,
+				134482FE1EB6393200D40EB1 /* ChooseRoomViewController.xib in Resources */,
 				134481F21EB3372D00D40EB1 /* hchinese.png in Resources */,
 				134482001EB3372D00D40EB1 /* addbtn.png in Resources */,
 				134482171EB3372D00D40EB1 /* tl.png in Resources */,
@@ -1377,6 +1395,7 @@
 			files = (
 				134482EE1EB38F9000D40EB1 /* SelectViewController.m in Sources */,
 				134482D81EB338B800D40EB1 /* OrderDish.m in Sources */,
+				134483021EB63AD000D40EB1 /* SendOrderViewController.m in Sources */,
 				134482D51EB3385600D40EB1 /* Dish.m in Sources */,
 				134482F31EB3920600D40EB1 /* MainViewController.m in Sources */,
 				134482DB1EB3392D00D40EB1 /* CommonTool.m in Sources */,
@@ -1385,6 +1404,7 @@
 				134482E51EB3713900D40EB1 /* WelcomeViewController.m in Sources */,
 				134482F81EB39F7300D40EB1 /* LeftViewController.m in Sources */,
 				134480BC1EB3356600D40EB1 /* main.m in Sources */,
+				134482FD1EB6393200D40EB1 /* ChooseRoomViewController.m in Sources */,
 				134482D21EB337FD00D40EB1 /* Group.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
