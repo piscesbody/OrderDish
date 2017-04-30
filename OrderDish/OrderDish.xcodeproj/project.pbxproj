@@ -280,6 +280,8 @@
 		134482FE1EB6393200D40EB1 /* ChooseRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482FC1EB6393200D40EB1 /* ChooseRoomViewController.xib */; };
 		134483021EB63AD000D40EB1 /* SendOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134483001EB63AD000D40EB1 /* SendOrderViewController.m */; };
 		134483031EB63AD000D40EB1 /* SendOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483011EB63AD000D40EB1 /* SendOrderViewController.xib */; };
+		134483071EB63F5E00D40EB1 /* MyOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134483051EB63F5E00D40EB1 /* MyOrderTableViewCell.m */; };
+		134483081EB63F5E00D40EB1 /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483061EB63F5E00D40EB1 /* MyOrderTableViewCell.xib */; };
 		5796472323BFB09F8EF1119C /* libPods-OrderDish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */; };
 /* End PBXBuildFile section */
 
@@ -573,6 +575,9 @@
 		134482FF1EB63AD000D40EB1 /* SendOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendOrderViewController.h; sourceTree = "<group>"; };
 		134483001EB63AD000D40EB1 /* SendOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendOrderViewController.m; sourceTree = "<group>"; };
 		134483011EB63AD000D40EB1 /* SendOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendOrderViewController.xib; sourceTree = "<group>"; };
+		134483041EB63F5E00D40EB1 /* MyOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderTableViewCell.h; sourceTree = "<group>"; };
+		134483051EB63F5E00D40EB1 /* MyOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderTableViewCell.m; sourceTree = "<group>"; };
+		134483061EB63F5E00D40EB1 /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
 		7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrderDish.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD55F69E5959C4C4EC8FC0CC /* Pods-OrderDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderDish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderDish/Pods-OrderDish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -629,6 +634,9 @@
 				134482F51EB39F7300D40EB1 /* LeftViewController.h */,
 				134482F61EB39F7300D40EB1 /* LeftViewController.m */,
 				134482F71EB39F7300D40EB1 /* LeftViewController.xib */,
+				134483041EB63F5E00D40EB1 /* MyOrderTableViewCell.h */,
+				134483051EB63F5E00D40EB1 /* MyOrderTableViewCell.m */,
+				134483061EB63F5E00D40EB1 /* MyOrderTableViewCell.xib */,
 				134482FF1EB63AD000D40EB1 /* SendOrderViewController.h */,
 				134483001EB63AD000D40EB1 /* SendOrderViewController.m */,
 				134483011EB63AD000D40EB1 /* SendOrderViewController.xib */,
@@ -1238,6 +1246,7 @@
 				134482991EB3372D00D40EB1 /* 金虫草藕条炒海参.jpg in Resources */,
 				134481DF1EB3372D00D40EB1 /* bgp6.png in Resources */,
 				134482AF1EB3372D00D40EB1 /* 勐海熟饼.jpg in Resources */,
+				134483081EB63F5E00D40EB1 /* MyOrderTableViewCell.xib in Resources */,
 				134482831EB3372D00D40EB1 /* 白切鸡海南文昌鸡.jpg in Resources */,
 				1344827B1EB3372D00D40EB1 /* 深海金枪鱼.jpg in Resources */,
 				1344820E1EB3372D00D40EB1 /* lc.png in Resources */,
@@ -1395,6 +1404,7 @@
 			files = (
 				134482EE1EB38F9000D40EB1 /* SelectViewController.m in Sources */,
 				134482D81EB338B800D40EB1 /* OrderDish.m in Sources */,
+				134483071EB63F5E00D40EB1 /* MyOrderTableViewCell.m in Sources */,
 				134483021EB63AD000D40EB1 /* SendOrderViewController.m in Sources */,
 				134482D51EB3385600D40EB1 /* Dish.m in Sources */,
 				134482F31EB3920600D40EB1 /* MainViewController.m in Sources */,
