@@ -268,7 +268,6 @@
 		134482DF1EB33C2E00D40EB1 /* DatabaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482DE1EB33C2E00D40EB1 /* DatabaseTool.m */; };
 		134482E51EB3713900D40EB1 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482E31EB3713900D40EB1 /* WelcomeViewController.m */; };
 		134482E61EB3713900D40EB1 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482E41EB3713900D40EB1 /* WelcomeViewController.xib */; };
-		134482E81EB3759000D40EB1 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 134482E71EB3759000D40EB1 /* database.sqlite */; };
 		134482EA1EB376FF00D40EB1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 134482E91EB376FF00D40EB1 /* libsqlite3.dylib */; };
 		134482EE1EB38F9000D40EB1 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134482EC1EB38F9000D40EB1 /* SelectViewController.m */; };
 		134482EF1EB38F9000D40EB1 /* SelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134482ED1EB38F9000D40EB1 /* SelectViewController.xib */; };
@@ -282,6 +281,13 @@
 		134483031EB63AD000D40EB1 /* SendOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483011EB63AD000D40EB1 /* SendOrderViewController.xib */; };
 		134483071EB63F5E00D40EB1 /* MyOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 134483051EB63F5E00D40EB1 /* MyOrderTableViewCell.m */; };
 		134483081EB63F5E00D40EB1 /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483061EB63F5E00D40EB1 /* MyOrderTableViewCell.xib */; };
+		1344830C1EB76A0D00D40EB1 /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1344830A1EB76A0D00D40EB1 /* MyOrderViewController.m */; };
+		1344830D1EB76A0D00D40EB1 /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1344830B1EB76A0D00D40EB1 /* MyOrderViewController.xib */; };
+		134483111EB7770100D40EB1 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1344830F1EB7770100D40EB1 /* RecommendViewController.m */; };
+		134483121EB7770100D40EB1 /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483101EB7770100D40EB1 /* RecommendViewController.xib */; };
+		134483161EB778C600D40EB1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 134483141EB778C600D40EB1 /* DetailViewController.m */; };
+		134483171EB778C600D40EB1 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134483151EB778C600D40EB1 /* DetailViewController.xib */; };
+		1344831A1EB788E200D40EB1 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 134483191EB788E200D40EB1 /* database.sqlite */; };
 		5796472323BFB09F8EF1119C /* libPods-OrderDish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */; };
 /* End PBXBuildFile section */
 
@@ -558,7 +564,6 @@
 		134482E21EB3713900D40EB1 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		134482E31EB3713900D40EB1 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		134482E41EB3713900D40EB1 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
-		134482E71EB3759000D40EB1 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = database.sqlite; path = OrderDish/database.sqlite; sourceTree = "<group>"; };
 		134482E91EB376FF00D40EB1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		134482EB1EB38F9000D40EB1 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
 		134482EC1EB38F9000D40EB1 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
@@ -578,6 +583,16 @@
 		134483041EB63F5E00D40EB1 /* MyOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderTableViewCell.h; sourceTree = "<group>"; };
 		134483051EB63F5E00D40EB1 /* MyOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderTableViewCell.m; sourceTree = "<group>"; };
 		134483061EB63F5E00D40EB1 /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
+		134483091EB76A0D00D40EB1 /* MyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderViewController.h; sourceTree = "<group>"; };
+		1344830A1EB76A0D00D40EB1 /* MyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderViewController.m; sourceTree = "<group>"; };
+		1344830B1EB76A0D00D40EB1 /* MyOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderViewController.xib; sourceTree = "<group>"; };
+		1344830E1EB7770100D40EB1 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		1344830F1EB7770100D40EB1 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		134483101EB7770100D40EB1 /* RecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
+		134483131EB778C600D40EB1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		134483141EB778C600D40EB1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		134483151EB778C600D40EB1 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		134483191EB788E200D40EB1 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
 		7DE92833798C5CBE6F779011 /* libPods-OrderDish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OrderDish.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD55F69E5959C4C4EC8FC0CC /* Pods-OrderDish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OrderDish.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OrderDish/Pods-OrderDish.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -598,7 +613,7 @@
 		134480AE1EB3356600D40EB1 = {
 			isa = PBXGroup;
 			children = (
-				134482E71EB3759000D40EB1 /* database.sqlite */,
+				134483191EB788E200D40EB1 /* database.sqlite */,
 				134482CF1EB3373D00D40EB1 /* Tools */,
 				134482CE1EB3373700D40EB1 /* Model */,
 				134480D11EB3372C00D40EB1 /* image */,
@@ -634,6 +649,15 @@
 				134482F51EB39F7300D40EB1 /* LeftViewController.h */,
 				134482F61EB39F7300D40EB1 /* LeftViewController.m */,
 				134482F71EB39F7300D40EB1 /* LeftViewController.xib */,
+				134483131EB778C600D40EB1 /* DetailViewController.h */,
+				134483141EB778C600D40EB1 /* DetailViewController.m */,
+				134483151EB778C600D40EB1 /* DetailViewController.xib */,
+				1344830E1EB7770100D40EB1 /* RecommendViewController.h */,
+				1344830F1EB7770100D40EB1 /* RecommendViewController.m */,
+				134483101EB7770100D40EB1 /* RecommendViewController.xib */,
+				134483091EB76A0D00D40EB1 /* MyOrderViewController.h */,
+				1344830A1EB76A0D00D40EB1 /* MyOrderViewController.m */,
+				1344830B1EB76A0D00D40EB1 /* MyOrderViewController.xib */,
 				134483041EB63F5E00D40EB1 /* MyOrderTableViewCell.h */,
 				134483051EB63F5E00D40EB1 /* MyOrderTableViewCell.m */,
 				134483061EB63F5E00D40EB1 /* MyOrderTableViewCell.xib */,
@@ -1180,9 +1204,9 @@
 				134482911EB3372D00D40EB1 /* 螺片捞手撕鸡.jpg in Resources */,
 				134482641EB3372D00D40EB1 /* 原之木瓜炖雪蛤.jpg in Resources */,
 				134482971EB3372D00D40EB1 /* 金奖鳗鱼酥.jpg in Resources */,
-				134482E81EB3759000D40EB1 /* database.sqlite in Resources */,
 				134481DD1EB3372D00D40EB1 /* bgp5.png in Resources */,
 				1344828D1EB3372D00D40EB1 /* 葱汁乳香肉.jpg in Resources */,
+				134483121EB7770100D40EB1 /* RecommendViewController.xib in Resources */,
 				134482751EB3372D00D40EB1 /* 果仁鸳鸯虾球.jpg in Resources */,
 				1344821A1EB3372D00D40EB1 /* yszicon.png in Resources */,
 				134481DC1EB3372D00D40EB1 /* bgp41.png in Resources */,
@@ -1229,7 +1253,9 @@
 				134482501EB3372D00D40EB1 /* 金山广肚公.png in Resources */,
 				134482701EB3372D00D40EB1 /* 家乡葱油饼.jpg in Resources */,
 				134482AE1EB3372D00D40EB1 /* 冻顶乌龙茶.jpg in Resources */,
+				1344831A1EB788E200D40EB1 /* database.sqlite in Resources */,
 				134482B11EB3372D00D40EB1 /* 参赛铁观音.jpg in Resources */,
+				1344830D1EB76A0D00D40EB1 /* MyOrderViewController.xib in Resources */,
 				1344823C1EB3372D00D40EB1 /* 极品吉品鲍(24头).jpg in Resources */,
 				134481E31EB3372D00D40EB1 /* blue.png in Resources */,
 				1344822F1EB3372D00D40EB1 /* 9.png in Resources */,
@@ -1247,6 +1273,7 @@
 				134481DF1EB3372D00D40EB1 /* bgp6.png in Resources */,
 				134482AF1EB3372D00D40EB1 /* 勐海熟饼.jpg in Resources */,
 				134483081EB63F5E00D40EB1 /* MyOrderTableViewCell.xib in Resources */,
+				134483171EB778C600D40EB1 /* DetailViewController.xib in Resources */,
 				134482831EB3372D00D40EB1 /* 白切鸡海南文昌鸡.jpg in Resources */,
 				1344827B1EB3372D00D40EB1 /* 深海金枪鱼.jpg in Resources */,
 				1344820E1EB3372D00D40EB1 /* lc.png in Resources */,
@@ -1404,6 +1431,7 @@
 			files = (
 				134482EE1EB38F9000D40EB1 /* SelectViewController.m in Sources */,
 				134482D81EB338B800D40EB1 /* OrderDish.m in Sources */,
+				134483161EB778C600D40EB1 /* DetailViewController.m in Sources */,
 				134483071EB63F5E00D40EB1 /* MyOrderTableViewCell.m in Sources */,
 				134483021EB63AD000D40EB1 /* SendOrderViewController.m in Sources */,
 				134482D51EB3385600D40EB1 /* Dish.m in Sources */,
@@ -1414,6 +1442,8 @@
 				134482E51EB3713900D40EB1 /* WelcomeViewController.m in Sources */,
 				134482F81EB39F7300D40EB1 /* LeftViewController.m in Sources */,
 				134480BC1EB3356600D40EB1 /* main.m in Sources */,
+				1344830C1EB76A0D00D40EB1 /* MyOrderViewController.m in Sources */,
+				134483111EB7770100D40EB1 /* RecommendViewController.m in Sources */,
 				134482FD1EB6393200D40EB1 /* ChooseRoomViewController.m in Sources */,
 				134482D21EB337FD00D40EB1 /* Group.m in Sources */,
 			);

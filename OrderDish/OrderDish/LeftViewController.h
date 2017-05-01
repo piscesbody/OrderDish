@@ -13,5 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITableView *dishTableView;
 @property (weak, nonatomic) IBOutlet UIScrollView *dishScrollView;
 @property (weak, nonatomic) IBOutlet UILabel *countLabel;
+@property (nonatomic, assign) int long index;
+-(void)resetCountLabel;
+
 
 @end

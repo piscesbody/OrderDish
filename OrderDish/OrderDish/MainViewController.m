@@ -9,11 +9,13 @@
 #import "MainViewController.h"
 #import "SelectViewController.h"
 #import "Group.h"
+#import "LeftViewController.h"
+#import "RecommendViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 {
     NSArray *_dataArray;
-    int _selectRow;
+    int long _selectRow;
 }
 
 @end
@@ -28,6 +30,17 @@
     _rightTableView.dataSource = self;
     _rightTableView.rowHeight = 95;
     //TODO: 创建七个视图控制器，显示左侧表对应的数据
+    LeftViewController *leftVC = nil;
+    for (int i = 0; i <7; i++) {
+        if (i == 0) {
+            leftVC = [[RecommendViewController alloc]init];
+        }else{
+            leftVC = [[LeftViewController alloc]init];
+        }
+        [self addChildViewController:leftVC];
+    }
+    LeftViewController *left = [[self childViewControllers]objectAtIndex:0];
+    [self.view addSubview:left.view];
     
     [self.view bringSubviewToFront:_rightTableView];
     [self.view bringSubviewToFront:_BackButton];
@@ -59,6 +72,14 @@
 {
     _selectRow = indexPath.row;
     [_rightTableView reloadData];
+    
+    LeftViewController *leftVC = [[self childViewControllers]objectAtIndex:indexPath.row];
+    leftVC.index = indexPath.row;
+    [leftVC resetCountLabel];
+    
+    [self.view addSubview:leftVC.view];
+    [self.view bringSubviewToFront:_rightTableView];
+    [self.view bringSubviewToFront:_BackButton];
 }
 
 - (void)didReceiveMemoryWarning {
